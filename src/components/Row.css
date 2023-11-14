@@ -1,0 +1,29 @@
+    .row {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    ::-webkit-scrollbar { /* to remove scrollbar */
+        display: none;
+    }
+
+    .movie-row{
+        display:flex;
+        overflow-x: scroll;
+        margin-top: 20px;
+        scrollbar-width:none;
+    }
+
+    .movie {
+        width: 250px;
+        height: 150px;
+        margin-right: 15px;
+        transition: 460ms; /* speed of hovering effect  */
+    }
+    .movie:hover{
+        transform: scale(1.06);
+    }
+    .movie_poster{
+        height: 250px;
+    }
+
